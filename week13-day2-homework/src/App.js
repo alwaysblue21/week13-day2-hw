@@ -13,31 +13,31 @@ function App() {
 
     },
     {
-      name: "xxxxxxxxxxxxxxxxx",
-      year: "2222",
-      rating: "G",
-      image: "https://www.something.com/image.png"
+      name: "Misery",
+      year: "1990",
+      rating: "R",
+      image: "https://m.media-amazon.com/images/I/91picvdmbJL._AC_UF894,1000_QL80_.jpg"
 
     },
     {
-      name: "xxxxxxxxxxxxxxxxx",
-      year: "2222",
-      rating: "G",
-      image: "https://www.something.com/image.png"
+      name: "Catch Me If You Can",
+      year: "2002",
+      rating: "PG-13",
+      image: "https://m.media-amazon.com/images/M/MV5BNDQ1YmNmNDctMTZiZS00OGU3LWIyN2YtMWIwMmVhNDQ0MjY5XkEyXkFqcGdeQXVyMjQ0NzE0MQ@@._V1_.jpg"
 
     },
     {
-      name: "xxxxxxxxxxxxxxxxx",
-      year: "2222",
-      rating: "G",
-      image: "https://www.something.com/image.png"
+      name: "The Dark Knight",
+      year: "2008",
+      rating: "PG-13",
+      image: "https://musicart.xboxlive.com/7/abb02f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080"
 
     },
     {
-      name: "xxxxxxxxxxxxxxxxx",
-      year: "2222",
-      rating: "G",
-      image: "https://www.something.com/image.png"
+      name: "Spirited Away",
+      year: "2001",
+      rating: "PG",
+      image: "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
 
     },
   ]
