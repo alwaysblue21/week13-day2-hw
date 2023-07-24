@@ -1,23 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import Movies from "./components/Movies";
 
 function App() {
+
+  const movies = [
+    {
+      name: "300",
+      year: "2006",
+      rating: "R",
+      image: "https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_.jpg"
+
+    },
+    {
+      name: "xxxxxxxxxxxxxxxxx",
+      year: "2222",
+      rating: "G",
+      image: "https://www.something.com/image.png"
+
+    },
+    {
+      name: "xxxxxxxxxxxxxxxxx",
+      year: "2222",
+      rating: "G",
+      image: "https://www.something.com/image.png"
+
+    },
+    {
+      name: "xxxxxxxxxxxxxxxxx",
+      year: "2222",
+      rating: "G",
+      image: "https://www.something.com/image.png"
+
+    },
+    {
+      name: "xxxxxxxxxxxxxxxxx",
+      year: "2222",
+      rating: "G",
+      image: "https://www.something.com/image.png"
+
+    },
+  ]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Movies movies={movies} />
     </div>
   );
 }
