@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  font-family: cursive;
+  font-size: 5em;
+}
+
+h2 {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  font-family: cursive;
+  font-size: 3em;
+}
+
+p {
+  margin: 1em 0 1em 0;
+  text-align: center;
+  font-family: cursive;
+  font-size: 2em;
+}
+
+.image {
+  width: 20em;
+  height: auto;
+}
+
+.movieInfo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  letter-spacing: 10px;
+  
+}
+
+.moviesPlate {
+  display: grid;
+  grid-template-columns: repeat(auto, minmax(220px, 2fr));
+  margin: auto;
+}
